@@ -1,14 +1,14 @@
 plugins {
-    alias(libs.plugins.androidApplication)
+    alias(libs.plugins.android.application)
 }
 
 android {
-    namespace = "com.example.a5012_library_management_system"
+    namespace = "com.example.musicplayer"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.a5012_library_management_system"
-        minSdk = 26
+        applicationId = "com.example.musicplayer"
+        minSdk = 24
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -40,6 +40,4 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-    implementation(libs.sortableTableView)
-    implementation ("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
 }
