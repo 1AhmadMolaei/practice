@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextAuthorName"
+        android:layout_width="374dp"
+        android:layout_height="62dp"
+        android:hint="@string/publisher_name" />
+
+    <EditText
+        android:id="@+id/editTextPublisherAddress"
+        android:layout_width="374dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/editTextAuthorName"
+        android:layout_marginTop="32dp"
+        android:hint="Enter Publisher Address"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editTextPublisherPhone"
+        android:layout_width="395dp"
+        android:layout_height="54dp"
+        android:layout_below="@id/editTextPublisherAddress"
+        android:layout_marginTop="33dp"
+        android:hint="@string/enter_publisher_phone" />
+    
+    <Button
+        android:id="@+id/buttonAddPublisher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPublisherPhone"
+        android:layout_marginTop="36dp"
+        android:text="Add Publisher"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
+

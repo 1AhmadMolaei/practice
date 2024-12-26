@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Library_Management_System</string>
+	<string name="enter_author_name">Enter_Author_Name</string>
+	<string name="add_author">Add_Author</string>
+    <string name="enter_publisher_name">Enter Publisher Name</string>
+    <string name="author_name">Enter Author Name</string>
+    <string name="add_book">Add Book</string>
+    <string name="enter_book_title">Enter Book Title</string>
+    <string name="enter_branch_name">Enter Branch Name</string>
+    <string name="enter_branch_address">Enter Branch Address</string>
+    <string name="add_branch">Add Branch</string>
+    <string name="enter_member_name">Enter Member Name</string>
+    <string name="enter_member_address">Enter Member Address</string>
+    <string name="enter_member_phone">Enter Member Phone</string>
+    <string name="add_member">Add Member</string>
+    <string name="book">Add Book</string>
+    <string name="view_books">View Books</string>
+    <string name="member">Add Member</string>
+    <string name="add_publisher">Add Publisher</string>
+    <string name="branch">Add Branch</string>
+    <string name="enter_publisher_phone">Enter Publisher Phone</string>
+    <string name="publisher_name">Enter Publisher Name</string>
+</resources>
